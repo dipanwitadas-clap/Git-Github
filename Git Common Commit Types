@@ -1,0 +1,52 @@
+| Type       | Use Case                                     | Example                                           |
+| ---------- | -------------------------------------------- | ------------------------------------------------- |
+| `feat`     | New feature                                  | `feat: add tea evaluation update page`            |
+| `fix`      | Bug fix                                      | `fix: resolve pagination issue in tea evaluation` |
+| `docs`     | Documentation changes                        | `docs: update installation guide`                 |
+| `style`    | Formatting only (no logic changes)           | `style: format tea_lot.py with ruff`              |
+| `refactor` | Code restructuring without changing behavior | `refactor: simplify tea evaluation API logic`     |
+| `perf`     | Performance improvements                     | `perf: optimize tea lot query with indexes`       |
+| `test`     | Add or modify tests                          | `test: add unit tests for tea evaluation import`  |
+| `build`    | Build system or dependencies                 | `build: upgrade frappe to v16.1.0`                |
+| `ci`       | CI/CD configuration                          | `ci: update GitHub Actions workflow`              |
+| `chore`    | Maintenance tasks                            | `chore: remove unused imports`                    |
+| `revert`   | Revert a previous commit                     | `revert: revert "feat: add bulk update"`          |
+
+Additional Common Types (used by many teams)
+
+| Type       | Use Case                                | Example                                     |
+| ---------- | --------------------------------------- | ------------------------------------------- |
+| `init`     | Initial project setup                   | `init: create frappe application`           |
+| `release`  | Release commit                          | `release: v1.2.0`                           |
+| `deps`     | Dependency updates                      | `deps: upgrade pandas to 2.3.0`             |
+| `config`   | Configuration changes                   | `config: update site configuration`         |
+| `security` | Security fixes                          | `security: sanitize file upload validation` |
+| `hotfix`   | Urgent production fix (non-standard)    | `hotfix: fix production login issue`        |
+| `wip`      | Work in progress (avoid on main branch) | `wip: implement evaluation filters`         |
+
+Example
+feat: add tea evaluation update page
+
+fix: resolve duplicate tea lot validation
+
+refactor: simplify tea lot import logic
+
+perf: optimize tea lot database queries
+
+docs: add installation instructions
+
+style: format Python files using ruff
+
+test: add tests for tea evaluation
+
+build: upgrade ERPNext dependencies
+
+ci: add pre-commit workflow
+
+chore: remove unused JavaScript files
+
+config: update hooks configuration
+
+security: validate uploaded Excel files
+
+revert: revert "feat: add purchase status field"
